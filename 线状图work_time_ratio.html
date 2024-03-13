@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang-"zh-cn">
+
+<head>
+  <meta charset="utf-8" />
+  <title>ECharts</title>
+  <!-- 引入刚刚下载的 ECharts 文件 -->
+  <script src="JS/echarts.js"></script>
+  <!-- 引入 jquery 文件 -->
+  <script src="JS/jquery.js"></script>
+</head>
+
+<body>
+  <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+  <div id="main" style="width: 600px;height:400px;"></div>
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+
+    // 指定图表的配置项和数据
+    //myChart.showLoading();
+    $.get('JS/data/work_time_ratio.json',
+      function (_rawData) {
+        run(_rawData);
+      }
+    );
+    function run(_rawData) {
+      // var countries = ['Australia', 'Canada', 'China', 'Cuba', 'Finland', 'France', 'Germany', 'Iceland', 'India', 'Japan', 'North Korea', 'South Korea', 'New Zealand', 'Norway', 'Poland', 'Russia', 'Turkey', 'United Kingdom', 'United States'];
+      const countries = [
+        '姜婷婷',
+        '杨程皓',
+        '余强',
+        '刘宇翔',
+        '张亦弛',
+        '陈璐璐',
+        '刘梦杰',
+        '刘天'
+      ];
+      const datasetWithFilters = [];
+      const seriesList = [];
+      echarts.util.each(countries, function (country) {
+        var datasetId = 'dataset_' + country;
+        datasetWithFilters.push({
+          id: datasetId,
+          fromDatasetId: 'dataset_raw',
+          transform: {
+            type: 'filter',
+            config: {
+              and: [
+                { dimension: 'Month', gte: 1 },
+                { dimension: 'Name', '=': country }
+              ]
+            }
+          }
+        });
+        seriesList.push({
+          type: 'line',
+          datasetId: datasetId,
+          showSymbol: false,
+          name: country,
+          endLabel: {
+            show: true,
+            formatter: function (params) {
+              return params.value[1] + ': ' + params.value[0];
+            }
+          },
+          labelLayout: {
+            moveOverlap: 'shiftY'
+          },
+          emphasis: {
+            focus: 'series'
+          },
+          encode: {
+            x: 'Month',
+            y: 'Resource Utilization Ratio',
+            label: ['Name', 'Resource Utilization Ratio'],
+            itemName: 'Month',
+            tooltip: ['Resource Utilization Ratio']
+          }
+        });
+      });
+      option = {
+        animationDuration: 10000,
+        dataset: [
+          {
+            id: 'dataset_raw',
+            source: _rawData
+          },
+          ...datasetWithFilters
+        ],
+        title: {
+          text: 'Resource Utilization'
+        },
+        tooltip: {
+          order: 'valueDesc',
+          trigger: 'axis'
+        },
+        xAxis: {
+          type: 'category',
+          nameLocation: 'middle'
+        },
+        yAxis: {
+          name: 'Utilization Ratio'
+        },
+        grid: {
+          right: 100
+        },
+        series: seriesList
+      };
+      myChart.setOption(option);
+    }
+
+
+  </script>
+</body>
+
+</html>

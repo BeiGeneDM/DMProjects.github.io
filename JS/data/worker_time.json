@@ -1,0 +1,579 @@
+{
+    "nodes": [
+        {
+            "name": "Tingting Jiang （姜婷婷）"
+        },
+        {
+            "name": "Lucas Yang （杨程皓）"
+        },
+        {
+            "name": "Yuxiang Liu （刘宇翔）"
+        },
+        {
+            "name": "Lulu Chen （陈璐璐）"
+        },
+        {
+            "name": "Qiang Yu （余强）"
+        },
+        {
+            "name": "Mengjie Liu （刘梦杰）"
+        },
+        {
+            "name": "Yichi Zhang （张亦弛）"
+        },
+        {
+            "name": "总计"
+        },
+        {
+            "name": "Bgb-A317-30813-101"
+        },
+        {
+            "name": "Bgb-A317-103"
+        },
+        {
+            "name": "Bgb-21447-101"
+        },
+        {
+            "name": "Bgb-A317-26808-101"
+        },
+        {
+            "name": "Bgb-A317-Sitra-203"
+        },
+        {
+            "name": "Bgb-11417-103"
+        },
+        {
+            "name": "Bgb-A317-A538-101"
+        },
+        {
+            "name": "Bgb-3111-309"
+        },
+        {
+            "name": "Bgb-11417-201"
+        },
+        {
+            "name": "Bgb-3111-306 (P3 1L Mcl)"
+        },
+        {
+            "name": "Bgb-Pi3K Delta Io Generic P1 Proposal"
+        },
+        {
+            "name": "Bcl2 Study 105"
+        },
+        {
+            "name": "Bgb-Lc-203"
+        },
+        {
+            "name": "Bgb-A317-Lbl-007-202"
+        },
+        {
+            "name": "Bgb-A317-311 Early Line Escc"
+        },
+        {
+            "name": "1L Nsclc Umbrella Trial"
+        },
+        {
+            "name": "Bgb-A317-209 Msi-H"
+        },
+        {
+            "name": "Bgb-3111-308"
+        },
+        {
+            "name": "Bgb-24714-101"
+        },
+        {
+            "name": "Bgb-11417-301"
+        },
+        {
+            "name": "Umbrella Hnscc 201 Study"
+        },
+        {
+            "name": "Bgb-3111-111 (Japanese P1)"
+        },
+        {
+            "name": "Bgb-11417-203"
+        },
+        {
+            "name": "Bgb-A317-290-Lte1"
+        },
+        {
+            "name": "Bgb-43395-101"
+        },
+        {
+            "name": "Bgb-A3055-101"
+        },
+        {
+            "name": "Bgb-A317-B167-101"
+        },
+        {
+            "name": "Bgb-3111-218"
+        },
+        {
+            "name": "Advantig-105 (Pd1/Tigit Combo Solid Tumor Ph1/2)"
+        },
+        {
+            "name": "Bg-68501-101"
+        },
+        {
+            "name": "Bgb-3111-217 Tec Sparing Btk"
+        },
+        {
+            "name": "Bgb-A317-A1217-203"
+        },
+        {
+            "name": "Bgb-A317-305 Gastric 1L P3"
+        },
+        {
+            "name": "Bgb-A317-312 1L Sclc"
+        },
+        {
+            "name": "Bgb-A317-15025-101 (Hpk1 Solid Tumors)"
+        },
+        {
+            "name": "Bgb-43395-102"
+        },
+        {
+            "name": "Bgb-Lc-202"
+        },
+        {
+            "name": "Bgb-26808 General"
+        },
+        {
+            "name": "Bgb-3111-215 (Ibrutinib Intolerant P2)"
+        },
+        {
+            "name": "Bgb-A317-15025 Hpk1 Inhibitor"
+        },
+        {
+            "name": "Bgb-A317-307 Nsclc 1L Phase 3 Sq"
+        },
+        {
+            "name": "Bgb-3111-304 (Gl Cll P3)"
+        },
+        {
+            "name": "Bgb-A317-Lbl-007-201"
+        }
+    ],
+    "links": [
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-A317-30813-101",
+            "value": 48.0
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-A317-103",
+            "value": 624.0
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-21447-101",
+            "value": 156.0
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "1L Nsclc Umbrella Trial",
+            "value": 56
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-24714-101",
+            "value": 88
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-11417-301",
+            "value": 21.5
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Umbrella Hnscc 201 Study",
+            "value": 32
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-43395-101",
+            "value": 140.0
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Advantig-105 (Pd1/Tigit Combo Solid Tumor Ph1/2)",
+            "value": 24
+        },
+        {
+            "source": "Tingting Jiang （姜婷婷）",
+            "target": "Bgb-A317-305 Gastric 1L P3",
+            "value": 48
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-A317-Sitra-203",
+            "value": 392
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-A317-A538-101",
+            "value": 104.0
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-Pi3K Delta Io Generic P1 Proposal",
+            "value": 108.0
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bcl2 Study 105",
+            "value": 276
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-Lc-203",
+            "value": 48
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "1L Nsclc Umbrella Trial",
+            "value": 40
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-3111-111 (Japanese P1)",
+            "value": 112
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-A317-290-Lte1",
+            "value": 104
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-A317-B167-101",
+            "value": 124
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-3111-218",
+            "value": 108
+        },
+        {
+            "source": "Lucas Yang （杨程皓）",
+            "target": "Bgb-A317-A1217-203",
+            "value": 56
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-A317-30813-101",
+            "value": 100.0
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-A317-103",
+            "value": 16.0
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-21447-101",
+            "value": 282.0
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-A317-26808-101",
+            "value": 247.5
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-A317-A538-101",
+            "value": 20.0
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-11417-201",
+            "value": 252
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-3111-306 (P3 1L Mcl)",
+            "value": 67.0
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-Lc-203",
+            "value": 161
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-A317-Lbl-007-202",
+            "value": 8
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-3111-308",
+            "value": 215
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-11417-301",
+            "value": 53.0
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Umbrella Hnscc 201 Study",
+            "value": 48
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-11417-203",
+            "value": 73
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-43395-101",
+            "value": 11.5
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bg-68501-101",
+            "value": 30
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-3111-304 (Gl Cll P3)",
+            "value": 11
+        },
+        {
+            "source": "Yuxiang Liu （刘宇翔）",
+            "target": "Bgb-A317-Lbl-007-201",
+            "value": 8
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-21447-101",
+            "value": 211.5
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-A317-26808-101",
+            "value": 478.75
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-A317-A538-101",
+            "value": 51.5
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-3111-306 (P3 1L Mcl)",
+            "value": 290.5
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-Pi3K Delta Io Generic P1 Proposal",
+            "value": 69.5
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-A317-Lbl-007-202",
+            "value": 9
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Umbrella Hnscc 201 Study",
+            "value": 34
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-A317-15025-101 (Hpk1 Solid Tumors)",
+            "value": 38
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-43395-102",
+            "value": 36
+        },
+        {
+            "source": "Lulu Chen （陈璐璐）",
+            "target": "Bgb-A317-15025 Hpk1 Inhibitor",
+            "value": 12
+        },
+        {
+            "source": "Qiang Yu （余强）",
+            "target": "Bgb-A317-30813-101",
+            "value": 812.0
+        },
+        {
+            "source": "Qiang Yu （余强）",
+            "target": "Bgb-A317-103",
+            "value": 8.0
+        },
+        {
+            "source": "Qiang Yu （余强）",
+            "target": "Bgb-21447-101",
+            "value": 40.0
+        },
+        {
+            "source": "Qiang Yu （余强）",
+            "target": "Bcl2 Study 105",
+            "value": 40
+        },
+        {
+            "source": "Qiang Yu （余强）",
+            "target": "Bgb-A317-Lbl-007-202",
+            "value": 116
+        },
+        {
+            "source": "Qiang Yu （余强）",
+            "target": "Bgb-A317-311 Early Line Escc",
+            "value": 224
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-30813-101",
+            "value": 134.5
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-103",
+            "value": 278.5
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-21447-101",
+            "value": 56.0
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-Sitra-203",
+            "value": 62
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-A538-101",
+            "value": 198.5
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-Pi3K Delta Io Generic P1 Proposal",
+            "value": 148.5
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-Lbl-007-202",
+            "value": 26
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "1L Nsclc Umbrella Trial",
+            "value": 124
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-209 Msi-H",
+            "value": 219
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Umbrella Hnscc 201 Study",
+            "value": 43
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A317-290-Lte1",
+            "value": 33
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-A3055-101",
+            "value": 7
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Advantig-105 (Pd1/Tigit Combo Solid Tumor Ph1/2)",
+            "value": 28
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bg-68501-101",
+            "value": 48
+        },
+        {
+            "source": "Mengjie Liu （刘梦杰）",
+            "target": "Bgb-26808 General",
+            "value": 23
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-A317-103",
+            "value": 32.0
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-A317-26808-101",
+            "value": 16.0
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-3111-309",
+            "value": 445.5
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-11417-201",
+            "value": 124
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-Lc-203",
+            "value": 94
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-A317-Lbl-007-202",
+            "value": 88
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-24714-101",
+            "value": 105
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-11417-301",
+            "value": 90.5
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Umbrella Hnscc 201 Study",
+            "value": 28
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-11417-203",
+            "value": 96
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-A3055-101",
+            "value": 120
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Advantig-105 (Pd1/Tigit Combo Solid Tumor Ph1/2)",
+            "value": 28
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-3111-217 Tec Sparing Btk",
+            "value": 69
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-A317-312 1L Sclc",
+            "value": 45.5
+        },
+        {
+            "source": "Yichi Zhang （张亦弛）",
+            "target": "Bgb-A317-307 Nsclc 1L Phase 3 Sq",
+            "value": 12
+        }
+    ]
+}

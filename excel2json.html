@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel to JSON Converter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"></script>
+</head>
+<body>
+    <input type="file" id="excelFile" accept=".csv">
+    <script>
+        document.getElementById('excelFile').addEventListener('change', function(e){
+            var file = e.target.files[0];
+            if (!file) {
+                return;
+            }
+            Papa.parse(file, {
+                header: true,
+                complete: function(results) {
+                    // Convert Excel data to JSON format
+                    var nodes = [];
+                    var links = [];
+                    var data = results.data;
+                    // Populate nodes
+                    var node_names = Object.keys(data[0]).filter(function(key) {
+                        return key !== 'Employee Name';
+                    });
+                    node_names.forEach(function(name) {
+                        nodes.push({name: name});
+                    });
+                    // Populate links
+                    data.forEach(function(row) {
+                        for (var key in row) {
+                            if (key === 'Employee Name') continue;
+                            var value = row[key];
+                            if (value != 0) {
+                                links.push({
+                                    source: row['Employee Name'],
+                                    target: key,
+                                    value: value
+                                });
+                            }
+                        }
+                    });
+                    // Create the final JSON structure
+                    var final_json = {"nodes": nodes, "links": links};
+                    console.log(final_json);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
